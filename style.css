@@ -1,0 +1,78 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+}
+
+.container{
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 3em 2em 1em;
+    width: 70%;
+    max-width:700px;
+}
+
+#title{
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+#title-intext{
+    color: #55F991;
+}
+
+#subtitle{
+    margin-top: 5px; 
+    color: #D5D4D8;
+    margin-bottom: 2em;
+}
+
+label{
+   color: white
+}
+
+#btn{
+    background: #10B981;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 45%;
+    font-size: 14px;
+    padding: 0.5em 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+
+
+i{
+    padding-right: 0.5em;
+}
+
+#password-container{
+    border-top: 1px solid #2F3E53;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.password{
+    background:  #273549;
+    color: #55F991;
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    padding: 0.7em 1em;
+}
+
+#text{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}

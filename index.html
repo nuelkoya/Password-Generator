@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="title">
+                Generate a <span id="title-intext">random password</span>
+            </h1>
+            <p id="subtitle">Never use an insecure password again</p>
+            <label for="password-length">Enter Password Length</label>
+            <input id="password-length" type="number" max="20"/>
+            <button id="btn" onclick="generatePassword() "><i class="fa fa-bolt"></i> Generate Password</button>
+            <div id="password-container">
+                <p class="password" id="pwrd-1">...</p>
+                <p class="password" id="pwrd-2">...</p>
+                <p class="password" id="pwrd-3">...</p>
+                <p class="password" id="pwrd-4">...</p>
+            </div>
+            <p id="text"></p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
